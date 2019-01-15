@@ -1,5 +1,5 @@
 # Progress-bar
-![alt text]('./assets/screenshot.jpg' Screenshot)
+![alt text](./assets/screenshot.jpg)
 ### Установка
 Загрузите файлы CSS и JS и добавьте в свой HTML
 ```html
