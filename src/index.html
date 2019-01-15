@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="./styles/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/progress.css">
+    <link rel="stylesheet" href="./styles/checkbox.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Progress bar</title>
+</head>
+<body>
+
+    <div class="progress-bar">
+        <h4 class="content-center">Progress bar</h4>
+        <div class="progress-bar_content content-center">
+            <div class="content-center">
+                <!-- Элемент для рисования -->
+                <div id="circle"></div> 
+            </div>
+            <div class="progress-bar_control">
+                <div class="progress-bar_input content-center">
+                    <input type="text" id="value-input" value="100">
+                </div>
+                <div class="progress-bar_switch content-center">
+                    <div>
+                        <div class="switch">
+                            <input type="checkbox" id="animate-checkbox" onclick="animateCircle(this)"> 
+                            <label>Animate</label>
+                        </div>
+                        <div class="switch">
+                            <input type="checkbox" id="hide-checkbox" onclick="hideCircle(this)">
+                            <label>Hide</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="./scripts/progress.js"></script>
+<script src="./scripts/app.js"></script>
+</body>
+</html>
