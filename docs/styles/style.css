@@ -66,3 +66,12 @@ a{
         margin-left: 20px;
     }
 }
+@media screen and (min-height: 700px){
+    .progress-bar_content{
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+}
