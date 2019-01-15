@@ -1,0 +1,24 @@
+._circle {
+    transition: 0.35s stroke-dashoffset;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+._circle-load{
+    stroke: #00bf72;
+    animation: load 2s infinite;
+}
+@keyframes load {
+    from {
+        stroke-dasharray: 40;
+        stroke-dashoffset: 400;
+    }
+    50% {
+        transform: rotate(10deg);
+        stroke-dasharray: -40;
+        stroke-dashoffset: -400;
+    }
+    to {
+        stroke-dasharray: 40;
+        stroke-dashoffset: 400;
+    }
+}
